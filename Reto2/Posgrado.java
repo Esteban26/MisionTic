@@ -8,6 +8,6 @@ public class Posgrado extends Estudiante {
     }
     
     public String toString(){
-        return "\n\tEstudiante Pregrado\n" + super.toString() + "\n\tModalidad: " + modalidad;
+        return "\tEstudiante Posgrado\n" + super.toString() + "\n\tModalidad: " + modalidad;
     }
 }

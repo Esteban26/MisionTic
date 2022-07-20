@@ -8,6 +8,6 @@ public class Pregrado extends Estudiante {
     }
     
     public String toString(){
-        return "\n\tEstudiante Pregrado\n" + super.toString() + "\n\tCreditos Aprobados: " + catidadCreditos;
+        return "\tEstudiante Pregrado\n" + super.toString() + "\n\tCreditos aprobados: " + catidadCreditos;
     }
 }

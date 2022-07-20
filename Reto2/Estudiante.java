@@ -16,8 +16,8 @@ public class Estudiante {
     @Override
     public String toString() {
         return"\tNombre: " + nombre +
-                "\n\tEdad: " + edad + "años"+
-                "\n\tPrograma" + programa +
+                "\n\tEdad: " + edad + " anios"+
+                "\n\tPrograma: " + programa +
                 "\n\tEtnia: " + tipoEtnia;
     }
 }

@@ -26,8 +26,8 @@ public class Registro {
         procesarComandos();
     }
 
+    public static Scanner sc = new Scanner(System.in);
     public static void procesarComandos(){
-        Scanner sc = new Scanner(System.in);
         String ingreso = sc.nextLine();
         String opcion = ingreso.substring(0,1);
         switch (opcion) {
@@ -45,11 +45,10 @@ public class Registro {
     }
 
     public static void listarEstudiantes() {
-        System.out.println("***Listado de Estudianntes***");
+        System.out.println("***Listado de estudiantes***");
         for (Estudiante estudiante : estudiantes) {
             System.out.println(estudiante);
         }
-        System.out.println("\n");
         procesarComandos();
     }
 }
